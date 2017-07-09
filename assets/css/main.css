@@ -20,7 +20,7 @@
 		line-height: 1;
 	}
 
-	ol, ul {
+	ol, ul, .details {
 		list-style: none;
 	}
 
@@ -55,10 +55,16 @@
 		font-size: 5.5em;
 	}
 
-	.redux-logo {
-		width: 89.19px;
-		height: 89px;
+	.profile-pic {
+		width: 200px;
+		height: 200px;
+		border-radius: 50%;
 	}
+
+	.alpha {
+		margin-top: 50px;
+	}
+
 	.row {
 		border-bottom: solid 1px transparent;
 		-moz-box-sizing: border-box;
