@@ -1456,7 +1456,6 @@
 		-webkit-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		-ms-transition: color 0.2s ease, border-bottom-color 0.2s ease;
 		transition: color 0.2s ease, border-bottom-color 0.2s ease;
-		border-bottom: dotted 1px;
 		color: inherit;
 		text-decoration: none;
 	}
@@ -1624,6 +1623,7 @@
 
 	header.major {
 		margin: 0 0 3.5em 0;
+		text-align: center;
 	}
 
 		header.major h2, header.major h3, header.major h4, header.major h5, header.major h6 {
@@ -2500,6 +2500,7 @@
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
+		padding-bottom: 2em;
 	}
 
 		.spotlight .image {
@@ -2534,43 +2535,46 @@
 		}
 
 		.spotlight:nth-child(1) {
-			background-color: rgba(0, 0, 0, 0.075);
+			/*background-color: rgba(0, 0, 0, 0.075);*/
+		}
+		.content:nth-child(1) {
+			/*background-color: rgba(0, 0, 0, 0.075);*/
 		}
 
 		.spotlight:nth-child(2) {
-			background-color: rgba(0, 0, 0, 0.15);
+			/*background-color: rgba(0, 0, 0, 0.15);*/
 		}
 
 		.spotlight:nth-child(3) {
-			background-color: rgba(0, 0, 0, 0.225);
+			/*background-color: rgba(0, 0, 0, 0.225);*/
 		}
 
 		.spotlight:nth-child(4) {
-			background-color: rgba(0, 0, 0, 0.3);
+			/*background-color: rgba(0, 0, 0, 0.3);*/
 		}
 
 		.spotlight:nth-child(5) {
-			background-color: rgba(0, 0, 0, 0.375);
+			/*background-color: rgba(0, 0, 0, 0.375);*/
 		}
 
 		.spotlight:nth-child(6) {
-			background-color: rgba(0, 0, 0, 0.45);
+			/*background-color: rgba(0, 0, 0, 0.45);*/
 		}
 
 		.spotlight:nth-child(7) {
-			background-color: rgba(0, 0, 0, 0.525);
+			/*background-color: rgba(0, 0, 0, 0.525);*/
 		}
 
 		.spotlight:nth-child(8) {
-			background-color: rgba(0, 0, 0, 0.6);
+			/*background-color: rgba(0, 0, 0, 0.6);*/
 		}
 
 		.spotlight:nth-child(9) {
-			background-color: rgba(0, 0, 0, 0.675);
+			/*background-color: rgba(0, 0, 0, 0.675);*/
 		}
 
 		.spotlight:nth-child(10) {
-			background-color: rgba(0, 0, 0, 0.75);
+			/*background-color: rgba(0, 0, 0, 0.75);*/
 		}
 
 		@media screen and (max-width: 1280px) {
@@ -3818,4 +3822,8 @@
 
 	body.is-mobile.landing #footer {
 		background-color: #1d242a;
+	}
+
+	.alt2 {
+		margin: 0 5%;
 	}
